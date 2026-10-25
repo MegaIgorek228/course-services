@@ -5,10 +5,10 @@ import logging.config
 
 import yaml
 
-from src.core.config import get_settings
-from src.web.app import create_app
-from src.web.lifespans import lifespan_app
-from src.web.routers import service_router
+from core.config import get_settings
+from web.app import create_app
+from web.lifespans import lifespan_app
+from web.routers import service_router
 
 logger = logging.getLogger(__name__)
 
